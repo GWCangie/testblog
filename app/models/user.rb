@@ -3,4 +3,10 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
+
+      attr_accessor :email, :password, :password_confirmation, :remember_me, :user_name
+
+
+def will_save_change_to_email?
+end
 end
