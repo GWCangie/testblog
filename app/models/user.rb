@@ -7,6 +7,8 @@ class User < ApplicationRecord
       attr_accessor :email, :password, :password_confirmation, :remember_me, :user_name
 
 
-def will_save_change_to_email?
-end
+  def will_save_change_to_email?
+  end
+
+
 end
