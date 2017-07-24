@@ -1,9 +1,5 @@
 # Add configuration values here, as shown below.
-SENDGRID_USERNAME: app73167435@heroku.com
-SENDGRID_PASSWORD: 8cvsv8el3343
-SECRET_KEY_BASE: b687f1c6298d48e56175bbb9ad96636c14019182435ddd65de976f89cf0fca01ab06988eb4b1b7b2b01c7414aa8b9bac2fd847bfd7431fb5291b80706a7828ea 
-ARTICLES_USERNAME: angie
-ARTICLES_PASSWORD: password
+
 # pusher_app_id: "2954"
 # pusher_key: 7381a978f7dd7f9a1117
 # pusher_secret: abdc3b896a0ffb85d373
