@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-      attr_accessor :email, :password, :password_confirmation, :remember_me, :user_name
+      attr_accessor :email, :password, :password_confirmation, :remember_me, :username
 
 
   def will_save_change_to_email?
