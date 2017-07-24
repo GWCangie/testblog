@@ -6,6 +6,10 @@
 #
 one: {}
 # column: value
+email: user@example.com
+encrypted_password: password1
 #
 two: {}
 # column: value
+email: user2@example.com
+encrypted_password: password2
