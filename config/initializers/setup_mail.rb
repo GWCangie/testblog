@@ -1,5 +1,6 @@
 if Rails.env.development?
  #au5
+  ActionMailer::Base.default_url_options = { host: 'https://sheltered-temple-59820.herokuapp.com'}
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
 
