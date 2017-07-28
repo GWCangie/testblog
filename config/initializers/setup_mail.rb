@@ -1,10 +1,10 @@
 if Rails.env.development?
- #au5
-  ActionMailer::Base.default_url_options = { host: 'https://sheltered-temple-59820.herokuapp.com'}
+ 
+  ActionMailer::Base.default_url_options = { host: 'localhost', port: 3000}
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
 
-    address: 'smtp.sengrid.net',
+    address: 'smtp.sendgrid.net',
     port:     '587',
     authentication: :plain,
     user_name: ENV['SENDGRID_USERNAME'],
