@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
-  has_many :users
+  has_many :user
   #changes state to false 
   validates_uniqueness_of :email, :allow_blank => false
 
